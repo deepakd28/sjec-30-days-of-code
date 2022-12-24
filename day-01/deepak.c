@@ -8,9 +8,9 @@ int main()
     {
         if(i%3==0)
         printf("\nfoo");
-        else if(i%2==0 || i==!i/3)
+        else if(i%2==0 || i==!i%3)
         printf("\nbar");
-        else if (i%2==!0)
+        else if (i%2==!0|| i==!i%3)
         printf("\nbaz");
     }
    return 0;
